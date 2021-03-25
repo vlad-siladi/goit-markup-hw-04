@@ -25,25 +25,44 @@
             </nav>
 
                 <ul class="auth list">
-                    <li class="item"><a href="mailto:info@devstudio.com" class="auth-link">info@devstudio.com</a></li>
-                    <li class="item"><a href="tel:+380961111111" class="auth-link">+38 096 111 11 11</a></li>
+
+                    <li class="item">
+                        <button class="button-auth">
+                            <svg class="icon" width="16" height="12">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>
+                            
+                            <a href="mailto:info@devstudio.com" class="auth-link">info@devstudio.com</a>
+                        </button>
+                    </li>
+                    <li class="item">
+                        <button class="button-auth">
+                            <svg class="icon " width="10" height="16">
+                                <use href="./images/icons.svg#icon-smartphone"></use>
+                            </svg>
+                            
+                            <a href="tel:+380961111111" class="auth-link">+38 096 111 11 11</a>
+                        </button>
+                    </li>
                 </ul>
         </div>
-    </header>
+    </header> 
 
     <main>
         <!--Hero-->
         <section class="hero">
-            <div class="section-hero">
-                <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="button">Заказать услугу</button>
+            <div class="overlay">
+                <div class="section-hero">
+                    <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+                    <button type="button" class="button">Заказать услугу</button>
+                </div>
             </div>
         </section>
         <!--features-->
         <section class="section">
             <div class="container ">
                 <ul class="feature list">
-                    <li class="item">
+                    <li class="item icon-antena">
                         <h3 class="section-title">Внимание к деталям</h3>
                         <p class="section-text">
                             Идейные соображения, а также
@@ -51,7 +70,7 @@
                             формированию позиции.
                         </p>
                     </li>
-                    <li class="item">
+                    <li class="item icon-clock">
                         <h3 class="section-title">Пунктуальность</h3>
                         <p class="section-text">
                             Задача организации, в особенности
@@ -59,7 +78,7 @@
                             влечет за собой.
                         </p>
                     </li>
-                    <li class="item">
+                    <li class="item icon-diagram">
                         <h3 class="section-title">Планирование</h3>
                         <p class="section-text">
                             Равным образом консультация с
@@ -67,7 +86,7 @@
                             степени обуславливает.
                         </p>
                     </li>
-                    <li class="item">
+                    <li class="item icon-astronaut">
                         <h3 class="section-title">Современные технологии</h3>
                         <p class="section-text">
                             Значимость этих проблем настолько
@@ -104,6 +123,37 @@
                         <div class="card-content">
                             <h3 class="caption-title">Игорь Демьяненко</h3>
                             <p class="caption-text">Product Designer</p>
+
+                            <ul class="caption-icon list">
+                                <li class="item ">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                           </ul>  
                         </div>
                         </article>
                     </li>
@@ -115,6 +165,37 @@
                         <div class="card-content">
                             <h3 class="caption-title">Ольга Репина</h3>
                             <p class="caption-text">Frontend Developer</p>
+
+                            <ul class="caption-icon list">
+                                <li class="item ">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                            </ul>
                         </div>
                         </article>
                     </li>
@@ -126,6 +207,37 @@
                         <div class="card-content">
                             <h3 class="caption-title">Николай Тарасов</h3>
                             <p class="caption-text">Marketing</p>
+
+                            <ul class="caption-icon list">
+                                <li class="item ">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                            </ul>
                         </div>
                         </article>
                     </li>
@@ -137,9 +249,93 @@
                         <div class="card-content">
                             <h3 class="caption-title">Михаил Ермаков</h3>
                             <p class="caption-text">UI Designer</p>
+
+                            <ul class="caption-icon list">
+                                <li class="item ">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="item">
+                                    <button class="caption-batton">
+                                        <svg class="icon-card" width="20" height="20">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                            </ul>
                         </div>
                         </article>
                     </li>
+                </ul>
+            </div>
+        </section>
+        <!--clients-->  
+        <section class="section">
+            <div class="container">
+                <h2 class="client-title">Постоянные клиенты</h2>
+        
+                <ul class="client-content list">
+                
+                    <li class="item-client">
+                        <button class="button-client">
+                            <svg class="logo-icon" width="45" height="50">
+                                <use href="./images/icons.svg#icon-logo-1"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="item-client">
+                        <button class="button-client">
+                            <svg class="logo-icon" width="40" height="52">
+                                <use href="./images/icons.svg#icon-logo-2"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="item-client">
+                        <button class="button-client">
+                            <svg class="logo-icon" width="41" height="43">
+                                <use href="./images/icons.svg#icon-logo-3"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="item-client">
+                        <button class="button-client">
+                            <svg class="logo-icon" width="80" height="42">
+                                <use href="./images/icons.svg#icon-logo-4"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="item-client">
+                        <button class="button-client">
+                            <svg class="logo-icon" width="59" height="47">
+                                <use href="./images/icons.svg#icon-logo-5"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="item-client">
+                        <button class="button-client">
+                            <svg class="logo-icon" width="88" height="45">
+                                <use href="./images/icons.svg#icon-logo-6"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    
                 </ul>
             </div>
         </section>
@@ -147,15 +343,53 @@
     </main>
     <!--footer-->
     <footer class="footer">
-        <div class="container">
-            <a href="" class="footer-logo">Web<span class="footer-studio">Studio</span> </a>
-            <address class="footer-address">
-                    <p class="address-link">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="address list">
-                    <li><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
-                    <li class="tel"><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
+        <div class="container footer-content">
+
+            <div class="footer-block">
+                <a href="" class="footer-logo">Web<span class="footer-studio">Studio</span> </a>
+                <address class="footer-address">
+                        <p class="address-link">г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul class="address list">
+                        <li><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
+                        <li class="tel"><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+
+            <div class="footer-icon">
+                <h3 class="footer-title">присоединяйтесь</h3>
+                <ul class="caption-icon list">
+                    <li class="item ">
+                        <button class="footer-batton">
+                            <svg class="icon-card" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="item">
+                        <button class="footer-batton">
+                            <svg class="icon-card" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="item">
+                        <button class="footer-batton">
+                            <svg class="icon-card" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="item">
+                        <button class="footer-batton">
+                            <svg class="icon-card" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
-            </address>
+            </div>
+
         </div>
     </footer>
 
