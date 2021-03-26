@@ -96,17 +96,15 @@ img {
   margin-left: 30px;
 }
 
-.auth-link {
-  display: flex;
-  align-items: center;
-}
-
 .icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
 .auth-link {
+  display: flex;
+  align-items: center;
+
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -382,20 +380,22 @@ img {
   margin-left: 30px;
 }
 
-.button-client {
-  padding: 0;
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
+
   color: var(--icon-grey-color);
   background-color: var(--primary-white-colour);
 
   border: 1px solid var(--icon-grey-color);
   border-radius: 4px;
-  cursor: pointer;
 }
 
-.button-client:hover,
-.button-client:focus {
+.client:hover,
+.client:focus {
   color: var(--accent-text-colour);
   border: 1px solid var(--accent-text-colour);
 }
@@ -490,14 +490,12 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  /* color: var(--primary-white-colour); */
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-icon .footer-icon-card {
   fill: var(--primary-white-colour);
-  /* fill: currentColor; */
 }
 
 .footer-icon-link:hover,
@@ -570,8 +568,7 @@ img {
   width: 370px;
 }
 
-.card:hover,
-.card:focus {
+.card:hover {
   border: 1px solid #eee;
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
