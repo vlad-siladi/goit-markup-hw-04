@@ -96,19 +96,9 @@ img {
   margin-left: 30px;
 }
 
-.button-auth {
+.auth-link {
   display: flex;
   align-items: center;
-  border: none;
-  color: var(--primary-text-colour);
-  background-color: var(--primary-white-colour);
-  padding: 0;
-  cursor: pointer;
-}
-
-.button-auth:hover,
-.button-auth:focus {
-  color: var(--accent-text-colour);
 }
 
 .icon {
@@ -345,33 +335,33 @@ img {
 }
 
 .caption-icon {
-  display: flex;
+  display: inline-flex;
 }
 
 .caption-icon .item + .item {
   margin-left: 10px;
 }
 
-.caption-batton {
-  padding: 0;
-  border: none;
+.caption-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   color: var(--icon-grey-color);
-  background-color: var(--primary-white-colour);
-  cursor: pointer;
 }
 
-.caption-batton:hover,
-.caption-batton:focus {
+.caption-icon .icon-card {
+  fill: currentColor;
+}
+
+.caption-icon-link:hover,
+.caption-icon-link:focus {
   color: var(--primary-white-colour);
   border-radius: 50%;
   background-color: var(--accent-text-colour);
 }
 
-.icon-card {
-  fill: currentColor;
-}
 /* clients */
 .client-title {
   margin: 0;
@@ -425,8 +415,8 @@ img {
   display: flex;
 }
 
-.footer-block {
-  width: 231px;
+.footer-box {
+  flex-basis: calc((50%-45px) / 2);
 }
 
 .footer-studio {
@@ -472,12 +462,9 @@ img {
   margin-top: 9px;
 }
 
-.footer-icon {
-  margin-left: 70px;
-}
-
 .footer-title {
-  margin-top: 12px;
+  padding-top: 12px;
+  margin-top: 0;
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -489,22 +476,35 @@ img {
   color: var(--primary-white-colour);
 }
 
-.footer-batton {
-  padding: 0;
-  border: none;
-  width: 44px;
-  height: 44px;
-  color: var(--primary-white-colour);
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  cursor: pointer;
+.footer-icon {
+  display: inline-flex;
 }
 
-.footer-batton:hover,
-.footer-batton:focus {
+.footer-icon .item + .item {
+  margin-left: 10px;
+}
+
+.footer-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  /* color: var(--primary-white-colour); */
   border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon .footer-icon-card {
+  fill: var(--primary-white-colour);
+  /* fill: currentColor; */
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
   background-color: var(--accent-text-colour);
 }
+
 /* portfolio */
 
 /* site header */
@@ -560,7 +560,7 @@ img {
 }
 
 .portfolio-ection .item {
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc((100% - 90px) / 3);
 
   margin-left: 30px;
   margin-bottom: 30px;
